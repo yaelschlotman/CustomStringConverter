@@ -43,11 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CharacterFInd.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CharacterReplace.cs" />
     <Compile Include="StringConverter.cs" />
+    <Compile Include="StringLength.cs" />
     <Compile Include="StringList.cs" />
-    <Compile Include="ToUpper.cs" />
+    <Compile Include="StringSplit.cs" />
+    <Compile Include="StringToLower.cs" />
+    <Compile Include="StringToUpper.cs" />
+    <Compile Include="UserInput.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

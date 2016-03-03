@@ -10,14 +10,14 @@ namespace StringConverter
     {
         static void Main(string[] args)
         {
-            StringConverter stringConverter = new StringConverter();
-            StringList stringList = new StringList();
-            ToUpper toUpper = new ToUpper();
-            //stringConverter.SplitStringIntoCharacters("Hey There");
-            //stringConverter.GetStringLengthCount("Hey There.");
-            //stringConverter.CreateCharArrayFromString("Hey There.");
-            stringConverter.ConvertStringToUpperCase("Hey There.");
-            stringConverter.ConvertStringToLowerCase("HEY THERE.");
+
+            StringToUpper.ConvertStringToUpperCase();
+            StringToLower.ConvertStringToLower();
+            CharacterReplace.ReplaceElementInString("Mississippi", 'i', 'x'); 
+            StringLength.GetStringLengthCount();
+            StringSplit.SplitStringIntoCharacters();          
+            CharacterFInd.FindElementsInString('s');
+
             Console.ReadKey();
         }
     }

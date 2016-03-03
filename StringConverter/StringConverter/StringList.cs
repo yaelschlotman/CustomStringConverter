@@ -22,38 +22,38 @@ namespace StringConverter
             "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
         };
 
-        public void CreateListFromString(string StringToConvert)
+        public void CreateListFromString(string stringToConvert)
         {
             string y;
-            List<string> CharacterList = new List<string>();
-            foreach (char x in StringToConvert)
+            List<string> characterList = new List<string>();
+            foreach (char x in stringToConvert)
             {
                 y = x.ToString();
-                CharacterList.Add(y);
+                characterList.Add(y);
             }
 
-            foreach (string c in CharacterList)
+            foreach (string c in characterList)
             {
                 Console.Write(c + ", ");
             }
             
         }
 
-        public List<string> CreateListFromFirstWordInString(string StringToConvert)
+        public List<string> CreateListFromFirstWordInString(string stringToConvert)
         {
             string y;
-            List<string> ListFromFirstWord = new List<string>();
+            List<string> listFromFirstWord = new List<string>();
 
-            foreach (char x in StringToConvert)
+            foreach (char x in stringToConvert)
             {
                 y = x.ToString();
                
             }
-            foreach (string s in ListFromFirstWord)
+            foreach (string s in listFromFirstWord)
             {
                 Console.Write(s);
             }      
-                return ListFromFirstWord;
+                return listFromFirstWord;
         }
     }
 }
